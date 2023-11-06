@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "machine-learning-labs"
+version = "0.1.0"
+description = "Machine Learning Lab Questions for CS3920"
+authors = ["Maruf Bepary <bepary71@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.1.1"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.0"
+jupyterhub = "^4.0.2"
+jupyter = "^1.0.0"
+numpy = "^1.26.1"
+ipykernel = "^6.26.0"
+scikit-learn = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
